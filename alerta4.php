@@ -15,8 +15,9 @@
 	$var4 = htmlentities($_GET['opcion']);
 
 	?>
-
-	<script>
+<?php
+	echo "HOLASSSSSSSSSSSSSSSSSSSSSSSSSSSSSS";
+?>	<script>
 		Swal.fire({
 			  title: '<?php echo $var2;?>',
 			  text: "<?php echo $var1;?>",
